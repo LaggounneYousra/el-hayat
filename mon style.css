@@ -1,0 +1,737 @@
+body {
+	background-image: url(https://previews.123rf.com/images/narutotootee/narutotootee1303/narutotootee130300016/18197142-r%C3%A9sum%C3%A9-fond-bleu-technologie-.jpg);
+   
+    background-size: cover;
+
+  
+
+  }
+   
+ *{transition:all 0.3s ease-in-out;}
+
+.container{
+  clear:both;
+  overflow:auto;
+}
+
+nav{float:right;}
+
+.logo{
+	   float: left;
+       background-color: transparent;
+       border-style: none;
+    }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+    position: absolute;
+	right: 25%;
+	top:3%;
+	transform: translate(45%,35%);
+
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #999;
+}
+
+
+h1{font-family: Comic Sans MS ; color : #DB7093 ; font-size:50px;}
+.vv{border-radius:40px 10px 40px 10px;
+}
+
+h1{
+   animation-duration: .8s;
+   animation-name: clignoter;
+   animation-iteration-count: infinite;
+   transition: none;
+
+
+
+
+
+
+
+
+}
+@keyframes clignoter  {
+  0%   { opacity:1; }
+  40%   {opacity:0; }
+  100% { opacity:1; }
+}
+
+.hyt img {
+	position: absolute;
+	left:5%;
+	top:50%;
+	transform: translate(5%,0%);
+}
+#one{
+	background-color: white;
+	color: black;
+ 	font-size: 25px;
+ 	font-style: italic;
+
+ 	text-align: left;
+	position: absolute;
+	right:60%;
+	top: 90%;
+	color:#610F14;
+	padding: 10px;
+	color:black;
+	 border: 6px solid;
+    padding: 10px;
+    background: #768CB5;
+    width: 630px;
+    height: 250px;
+   transform: translate(100%,-90%);
+
+
+
+}
+ h1 {
+	background-color: white;
+	color: black;
+ 	font-size: 25px;
+ 	font-style: italic;
+
+
+}
+/* title de caractristique */
+#cara {
+	background-color: white ;
+	color: black;
+ 	font-size: 25px;
+ 	font-style: italic;
+
+ 	text-align: left;
+	
+	color:#610F14;
+	padding: 10px;
+	color:black;
+	 border: 6px solid;
+    padding: 10px;
+    background: #B0C4DE;
+    width: 300px;
+    height: 50px;
+   
+	position: absolute;
+	left:23%;
+	top:98%;
+	transform: translate(-70%,100%);
+
+}
+
+/*  les caractristique */
+
+#pic {
+
+	background-color: white ;
+	color: black;
+ 	font-size: 25px;
+ 	font-style: italic;
+
+ 	text-align: left;
+	
+	color:#610F14;
+	padding: 10px;
+	color:black;
+	 border: 6px solid;
+    padding: 10px;
+    background: #FFEBCD;
+    width: 630px;
+    height: 420px;
+   
+	position: absolute;
+	left:40%;
+	top:55%;
+	transform: translate(-70%,100%);
+}
+
+ /* title de nos cordonnée */
+#cor{
+
+
+background-color: white ;
+	color: black;
+ 	font-size: 25px;
+ 	font-style: italic;
+
+ 	text-align: left;
+	
+	color:#610F14;
+	padding: 10px;
+	color:black;
+	 border: 6px solid;
+    padding: 10px;
+    background: #B0C4DE;
+    width: 300px;
+    height: 50px;
+   
+	position: absolute;
+	left:23%;
+	top:205%;
+
+	transform: translate(-70%,100%);
+
+
+}
+
+/*nos cordonnée*/
+#pol{
+	background-color: #FFEBCD ;
+	color: black;
+ 	font-size: 25px;
+ 	font-style: italic;
+
+ 	text-align: left;
+	
+	color:#610F14;
+	padding: 10px;
+	color:black;
+	 border: 6px solid;
+    padding: 10px;
+    background: #FFEBCD;
+    width: 620px;
+    height: 300px;
+   
+	position: absolute;
+	left:39%;
+	top:180%;
+	transform: translate(-70%,100%);
+}
+
+.hot img{float:right;
+
+    position: absolute;
+	top:195%;
+	left: 25%;
+	transform: translate(100%,100%);
+	  width: 480px;
+    height: 290px;
+
+}
+
+/*backgroung page chambre*/
+#cc{
+
+	background-image: url(https://i.pinimg.com/474x/6f/78/82/6f788269f05c97b48355ae297d304787.jpg);
+   
+    background-size: cover;
+   
+}
+
+/*accordion*/
+
+.cont{
+	width: 40%;
+	margin: 50px auto 
+	transform: rotate(45deg);
+	color: black;
+ 	font-size: 25px;
+ 	font-style: italic
+
+
+ 
+   
+
+
+}
+.accordion {
+	width: 100%;
+	border: 0;
+	background: #bedfe8;
+	font-size: 16px;
+	padding: 20px;
+	text-align: left;
+	cursor: pointer;
+	transition: 0.4s;
+	color: black;
+ 	font-size: 25px;
+ 	font-style: italic;
+ 	
+
+
+
+ 	
+
+
+
+}
+.accordion:hover {
+	 background: #2694af;
+
+}
+
+ .accordion:after {
+ 	content: "\002B";
+ 	float: right;
+ 	font-weight: bold;
+ 	color:#777 ;
+
+ }
+
+ .active:after {
+ 	content: "\2212";
+  }
+
+ .desc{
+ 	 padding: 0 15px;
+ 	 display: none;
+ 	 overflow: hidden;
+ 	 background: #fff;
+ 	 
+ 	 
+ }
+
+/* title type de chambre   */
+ .typ{
+ 	background-color: white ;
+	color: black;
+ 	font-size: 25px;
+ 	font-style: italic;
+
+ 	text-align: left;
+	
+	color:#610F14;
+	color:black;
+	 border: 2px solid;
+    padding: 6px;
+    background: #B0C4DE;
+    width: 270px;
+    height: 30px;
+   
+	position: absolute;
+	left:15.4%;
+	top:32.5%;
+	transform: translate(-70%,100%);
+
+
+ }
+
+/* title de chmbre1 */
+
+#lm {
+	background-color: white ;
+	color: black;
+ 	font-size: 25px;
+ 	font-style: italic;
+
+ 	text-align: center;
+	
+	color:#610F14;
+	color:black;
+	 border: 2px solid;
+    padding: 6px;
+    background: #B0C4DE;
+    width: 400px;
+    height: 30px;
+
+	position: absolute;
+	left:69%;
+	top:100%;
+	transform: translate(-70%,100%);
+
+
+   }
+
+   /*image chambre simple*/
+   .cs{
+
+   position: absolute;
+   top: 120%;
+   left: 43%;
+   }
+
+   /*titre de chambre double */
+ #pp{
+ 	background-color: white ;
+	color: black;
+ 	font-size: 25px;
+ 	font-style: italic;
+
+ 	text-align: center;
+	
+	color:#610F14;
+	color:black;
+	 border: 2px solid;
+    padding: 6px;
+    background: #B0C4DE;
+    width: 400px;
+    height: 30px;
+
+	position: absolute;
+	left:69%;
+	top:168%;
+	transform: translate(-70%,100%);
+
+
+
+ }
+
+   /*image de chmbre double */
+
+ .cd {
+
+ 	 position: absolute;
+   top: 188%;
+   left: 43%;
+   }
+
+   /*prix de chambre simple*/
+    .prix1 {
+    	background-color: white;
+	color: black;
+ font-size: 30px;
+ font-style: italic;
+  position: absolute;
+  top: 12%;
+  left: 34%;
+  transform: translate(-80%, -50%);
+  
+  }
+
+ /*prix de chambre double */
+   .prix2 {
+   	background-color: white;
+	color: black;
+ font-size: 30px;
+ font-style: italic;
+  position: absolute;
+  top: 12%;
+  left: 34%;
+  transform: translate(-80%, -50%);
+  
+  }
+
+ /*titre de chambre 3*/
+ #dd{
+
+ 	background-color: white ;
+	color: black;
+ 	font-size: 25px;
+ 	font-style: italic;
+
+ 	text-align: center;
+	
+	color:#610F14;
+	color:black;
+	 border: 2px solid;
+    padding: 6px;
+    background: #B0C4DE;
+    width: 400px;
+    height: 30px;
+
+	position: absolute;
+	left:69%;
+	top:238%;
+	transform: translate(-70%,100%);
+
+
+
+ }
+
+/*image de chambre 3*/
+.ctb{
+
+	 position: absolute;
+   top: 258%;
+   left: 43%;
+
+  }
+/*prix de chambre triple */
+.prix3 {
+   	background-color: white;
+	color: black;
+ font-size: 30px;
+ font-style: italic;
+  position: absolute;
+  top: 12%;
+  left: 34%;
+  transform: translate(-80%, -50%);
+  
+  }
+
+/*titre de chambre 4*/
+
+  #jj{
+  	background-color: white ;
+	color: black;
+ 	font-size: 25px;
+ 	font-style: italic;
+
+ 	text-align: center;
+	
+	color:#610F14;
+	color:black;
+	 border: 2px solid;
+    padding: 6px;
+    background: #B0C4DE;
+    width: 400px;
+    height: 30px;
+
+	position: absolute;
+	left:69%;
+	top:306%;
+	transform: translate(-70%,100%);
+
+  }
+
+  /*image de chambre 4*/
+
+.clj{
+	position: absolute;
+   top: 326%;
+   left: 43%;
+	
+}
+/*prix de chambre 4*/
+
+.prix4 {
+   	background-color: white;
+	color: black;
+ font-size: 30px;
+ font-style: italic;
+  position: absolute;
+  top: 12%;
+  left: 34%;
+  transform: translate(-80%, -50%);
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	position: absolute;
+  left: 0;
+  bottom: -299%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+footer {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+  margin-top: 80px;
+  bottom: 0;
+  color: #fff;
+}
+
+.footer-navigation h3 {
+  margin: 0;
+  font: normal 36px Cookie, cursive;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.footer-navigation h3 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-navigation h3 span {
+  color: #5383d3;
+}
+
+.footer-navigation p.links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-navigation p.company-name {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+@media (max-width:767px) {
+  .footer-contacts {
+    margin: 30px 0;
+  }
+}
+
+.footer-contacts p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+}
+
+.footer-contacts p a {
+  color: #5383d3;
+  text-decoration: none;
+}
+
+.fa.footer-contacts-icon {
+  background-color: #33383b;
+  color: #fff;
+  font-size: 18px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 38px;
+  margin: 10px 15px 10px 0;
+}
+
+span.new-line-span {
+  display: block;
+  font-weight: normal;
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-about h4 {
+  display: block;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-about p {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+div.social-links {
+  margin-top: 20px;
+  color: #fff;
+}
+
+.social-links a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.site-heading-lower {
+}
+
+.section-heading-lower {
+  color: black;
+}
+
+.section-heading-lower {
+}
+
+#colll {
+  color: black;
+}
+
+#skjdf {
+}
+
+#par {
+  color: black;
+}
+
+
+
+}
+
+
+ 
+.mpp{
+	position: absolute;
+	left: 10%;
+	top: 9%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
